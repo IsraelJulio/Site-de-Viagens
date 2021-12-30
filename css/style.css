@@ -256,3 +256,26 @@ header li:first-child {
     flex-wrap: nowrap;   
   }
 }
+/*FOOTER*/
+footer{
+  background-color:black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  width: 100%;
+  margin:0;
+  font-size: 20px;
+
+}
+footer ul{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:200px;
+  padding:15px;
+ 
+
+}
